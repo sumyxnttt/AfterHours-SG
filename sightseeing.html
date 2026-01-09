@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>After Hours SG</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+        <section class="header-5">
+            <nav>
+                <a href="sightseeing.html"><img src="home/web logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                        <ul>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="sightseeing.html">Sightseeing</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+        </section>
+
+        <!----Sightseeing Places---->
+        <section class="Sightseeing">
+            <h1>Sightseeing</h1>
+            <p>Experience Singapore in a completely different way. The most breathtaking nighttime views in the city may be found here, along with some secret picturesque locations that are ideal for relaxing after a hard day. Find the greatest places to see Singapore at night, take stunning pictures, or just relax under the stars, from rooftop gardens and brilliant skyline lookouts to peaceful waterfronts and hidden hangouts.</p>
+
+            <div class="sightseeing-filters">
+                <button class="sightseeing-filters-btn active">Iconic Skyline Views</button>
+                <button class="sightseeing-filters-btn active">Rooftop & Gardens</button>
+                <button class="sightseeing-filters-btn active">Waterfront Views</button>
+            </div>
+            <div class="card-container">
+                <div class="cards">
+                    <img src="sightseeing/sands-skypark-observation.png" alt="Skypark">
+                    <div class="card-content">
+                        <h3>SkyPark Observatory Deck</h3>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="sightseeing/waterfront sightsee.png" alt="Waterfront">
+                    <div class="card-content">
+                        <h3>Waterfront Promenade</h3>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="sightseeing/esplanade.png" alt="Esplanade">
+                    <div class="card-content">
+                        <h3>Esplanade Roof Terrece</h3>
+                    </div>
+        </section>
+
+        <!---gallery---->
+
+        <section class="gallery">
+            <h1>#FORTHEGRAM Gallery</h1>
+            <p>The hottest photo spots for your next instagram post.</p>
+
+            <div class="row">
+                <div class="gallery-col">
+                  <img src="sightseeing/jewels.png">
+                  <div class="layer">
+                    <h3>JEWEL SINGAPORE</h3>
+                  </div>
+                </div>
+                <div class="gallery-col">
+                  <img src="sightseeing/gardens.png">
+                  <div class="layer">
+                    <h3>GARDENS BY THE BAY</h3>
+                  </div>
+                </div>
+                <div class="gallery-col">
+                  <img src="sightseeing/artscience.png">
+                  <div class="layer">
+                    <h3>ART SCIENCE MUSEUM</h3>
+                  </div>
+                </div>
+                <div class="gallery-col">
+                  <img src="sightseeing/bayfront.png">
+                  <div class="layer">
+                    <h3>MARINA BAYFRONT</h3>
+                  </div>
+                </div>
+            </div>
+           
+        </section>
+
+
+    
+             
+
+           <section class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="entertainment.html">Entertainment</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="food.html">Food</a>
+                <a href="sightseeing.html">Sightseeing</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <p>@sumyint77@gmail.com</p>
+            </div>
+
+         </section>
+         <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function openMenu(){
+            navLinks.style.right = "0";
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+       </script>
+
+
+     </body>
+</html>

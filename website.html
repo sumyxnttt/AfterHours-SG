@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>After Hours SG</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+       <section class="header">
+           <nav>
+               <a href="website.html"><img src="home/web logo.png"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closeMenu()"></i>
+
+                     <ul>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="sightseeing.html">Sightseeing</a></li>
+                     </ul>
+               </div>
+               <i class="fa fa-bars" onclick="openMenu()"></i>
+           </nav>
+    <div class="text-box">
+        <h1>Welcome To the Best of Singapore After Dark</h1>
+        <p>Discover the vibrant night life and bustling streets of Singapore at night,<br> this guide has got you all covered!
+        </p>
+        <a href="" class="hero-btn">Explore Now</a>
+    </div>
+       </section>
+
+       <!----Trending Activities---->
+       <section class="trending">
+        <h1>Trending now in Singapore</h1>
+        <p>Check out the latest and newest hot spots in Singapore happening now</p>
+        
+        <div class="row">
+            <div class="trending-col">
+                <h3>Nightlife Entertainments</h3>
+                <p>Discover Singapore's vibrant nightlife, which makes the city come alive after dark.</p>
+             </div>
+             <div class="trending-col">
+                <h3>Late-Night Supper Spots</h3>
+                <p>Meet the thrilling attractions that go beyond standard sightseeing, experience the excitement of Singapore after dark.</p>
+             </div>
+             <div class="trending-col">
+                <h3>Best Attractions at Night</h3>
+                <p>Discover where teenagers and night owls go to recharge, and sample the city's after-hours flavors.</p>
+             </div>
+        </div>
+       </section>
+
+       <!----Hottest Attractions---->
+
+       <section class="attractions">
+        <h1>Hot Attractions in Singapore</h1>
+        <p>Discover the thrilling attractions that go beyond standard sightseeing, experience the excitement of Singapore after dark.</p>
+
+        <div class="row">
+            <div class="attractions-col">
+                <img src="attractions/hyperdrive1.png"HyperDrive>
+                <div class="layer">
+                    <h3>Action & Adventure</h3>
+                </div>
+            </div>
+            <div class="attractions-col">
+                <img src="attractions/night safari.png" alt="Night Safari">
+                <div class="layer">
+                    <h3>Wildlife & Nature</h3>
+                </div>
+            </div>
+            <div class="attractions-col">
+                <img src="attractions/timezone arcade.png" alt="Timezone Arcade">
+                <div class="layer">
+                    <h3>Games & Arcades</h3>
+                </div>
+            </div>
+            <div class="attractions-col">
+                <img src="attractions/rivercruise tour.png" alt="River Cruise Tour">
+                <div class="layer">
+                    <h3>Views & Scenic Tours</h3>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!----Best Supper---->
+
+       <section class="supper">
+        <h1>Discover the Best Supper Spots</h1>
+
+        <div class="row">
+            <div class="supper-col">
+                <img src="food/maxwell-food-centre.png" alt="Maxwell Food Centre">
+                <h3>Maxwell Food Centre</h3>
+                <p>Opening hours: Mon-Sun 24 hours</p>
+            </div>
+             <div class="supper-col">
+                <img src="food/2AMDESSERT.png" alt="2AM Dessert Bar">
+                <h3>2AM Dessert Bar</h3>
+                <p>Opening hours: Mon Closed Tues-Sun 6pm-2am</p>
+            </div>
+             <div class="supper-col">
+                <img src="food/neon-pigeon.png" alt="Neon Pigeon">
+                <h3>Neon Pigeon</h3>
+                <p>Opening hours: Mon-Fri 11am-12am Sat-Sun 10:30am-10:30am</p>
+            </div>
+         </div>
+
+       </section>
+
+       <!----Footer Section---->
+
+         <section class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="entertainment.html">Entertainment</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="food.html">Food</a>
+                <a href="sightseeing.html">Sightseeing</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <p>@sumyint77@gmail.com</p>
+            </div>
+
+         </section>
+
+
+
+
+       <!---JavaScript for Toggle Menu--->
+       <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function openMenu(){
+            navLinks.style.right = "0";
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+       </script>
+
+    </body>
+</html>

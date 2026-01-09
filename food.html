@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>After Hours SG</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+        <section class="header-4">
+            <nav>
+                <a href="food.html"><img src="home/web logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                        <ul>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="sightseeing.html">Sightseeing</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+        </section>
+
+        <!----Food Places---->
+        <section class="Food Spots">
+            <h1>Food</h1>
+            <p>From well-known hawker stalls and hip 24-hour café to hidden gems that offers comfort cuisine until morning, this section offers you the best late-night eats. Discover where teenagers and night owls go to recharge, and sample the city's after-hours flavors, whether you're craving hot noodles after clubbing or sweet desserts to cap off the evening.</p>
+
+            <div class="containers">
+             <div class="list-containers">
+                <div class="left-col">
+                    <div class="cafe">
+                        <img src="food/KREAMS.png" alt="CAFEKREAMS"/>
+                    </div>
+                <div class="right-col">
+                    <div class="cafe-info">
+                        <h3>24H Cafes & Chill Spots</h3>
+                        <p>Craving a nice treat after a long day ? Explore the cozy cafes and aesthetic late-night hangouts perfect for studying and chilling with your friends. These cafes will offer the best ambience and vibes that hit just right after dark.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="hawker">
+                        <img src="food/satay street.jpeg" alt="hawker-centre"/>
+                    </div>
+                <div class="right-col">
+                    <div class="hawker-info">
+                        <h3>Late Night Hawker Eats</h3>
+                        <p>No better way to dive into the true heritage of Singapore culture than having true hawker food. This section will guide you to the best local spots where sizzling woks and bustling crowds will keep the night alive. Discover the affordable and authentic dishes of Singapore right here.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="desserts">
+                        <img src="food/2AMDESSERT.png" alt="Desserts2am"/>
+                    </div>
+                <div class="right-col">
+                    <div class="desserts-info">
+                        <h3>Desserts & Sweet Spots</h3>
+                        <p>Devoted to sugar fixes that taste even better at night, from handmade gelato to molten lava cakes. These dessert locations are popular with Gen-Zs.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="fushion">
+                        <img src="food/neon-pigeon.png" alt="Fusion" />
+                    </div>
+                <div class="right-col">
+                    <div class="fushion-info">
+                        <h3>Fushion Flavours</h3>
+                        <p>Find the best global fusion eats, from Japanese and Korean bites to Middle Eastern wraps and Mexican tacos. Inspired by cultures around the world, theses restaurant will not disappoint your taste buds. Theses will be the best spots for adventurous foodies, where international flavours meet Singapore’s late-night energy.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+        </div>
+
+
+        </section>
+
+
+    
+             
+
+           <section class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="entertainment.html">Entertainment</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="food.html">Food</a>
+                <a href="sightseeing.html">Sightseeing</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <p>@sumyint77@gmail.com</p>
+            </div>
+
+         </section>
+         <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function openMenu(){
+            navLinks.style.right = "0";
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+       </script>
+
+
+     </body>
+</html>

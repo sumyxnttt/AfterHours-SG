@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>After Hours SG</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+        <section class="header-3">
+            <nav>
+                <a href="attractions.html"><img src="home/web logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                        <ul>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="sightseeing.html">Sightseeing</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+        </section>
+
+        <!----Attractions---->
+        <section class="Attractions" id="attractions">
+            <h1>Attractions</h1>
+            <p>Meet the thrilling attractions that go beyond standard sightseeing, experience the excitement of Singapore after dark. From neon-lit go-karts to night safaris, escape rooms, and late-night arcade fun, this section showcases nighttime attractions ideal just for you.</p>
+
+            <div class="attractions-filters">
+                <button class="attractions-filters-btn active">Adventure & Action</button>
+                <button class="attractions-filters-btn active">Games & Arcade</button>
+                <button class="attractions-filters-btn active">Wildlife & Nature</button>
+                <button class="attractions-filters-btn active">Views & Tours</button>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="attractions/xscape-1.png" alt="Xcape SG">
+                    <div class="card-content">
+                        <h3>XCAPE Singapore</h3>
+                        <p>Jump into the world of most immersive games, love to solve puzzles ? This escape room place is for you.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="attractions/night safari.png" alt="Night Safari Tour">
+                    <div class="card-content">
+                        <h3>Night Safari Tour</h3>
+                        <p>Explore the worlds first ever nocturnal wildlife park, where you will be see exotic animals up-close at night.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="attractions/hyperdrive 2.png" alt="Hyperdrive">
+                    <div class="card-content">
+                        <h3>Hyperdrive</h3>
+                        <p>Singapore's first ever indoor go-kart, the top adrenaline activity for adventurous individuals.</p>
+                    </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="attractions/gbtb.png" alt="GBTB">
+                    <div class="card-content">
+                        <h3>Gardens By The Bay</h3>
+                        <p>The nature that transforms into a glowing fantasy at night. One of the citys greatest sight-seeing spot.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="attractions/light show 2.png" alt="LightSHOW">
+                    <div class="card-content">
+                        <h3>MBS Spectra Light Show</h3>
+                        <p>Marina Bay Sands signature outdoor light and water show that transforms the bay of Singapore night life.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="attractions/arcade.png" alt="CPCM">
+                    <div class="card-content">
+                        <h3>Cow Play Cow Moo</h3>
+                        <p>The best interaction and retro games for you, all night long at Cow Play Cow Moo, one of the biggest arcades in the city.</p>
+                    </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="attractions/rivercruise tour.png" alt="Rivercruise">
+                    <div class="card-content">
+                        <h3>Cruise by the River Tour</h3>
+                        <p>Offering the citys greatest bay scenery, catch the river tour at the Singapore Clarke Quay.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="attractions/luge copy.png" alt="Luge">
+                    <div class="card-content">
+                        <h3>Luge Sentosa</h3>
+                        <p>The most popular nigth activity right by the beaches at Sentosa</p>
+                    </div>
+            </div>
+
+        </section>
+
+
+    
+             
+
+           <section class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="entertainment.html">Entertainment</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="food.html">Food</a>
+                <a href="sightseeing.html">Sightseeing</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <p>@sumyint77@gmail.com</p>
+            </div>
+
+         </section>
+         <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function openMenu(){
+            navLinks.style.right = "0";
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+       </script>
+
+
+     </body>
+</html>

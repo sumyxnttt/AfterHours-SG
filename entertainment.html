@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>After Hours SG</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+        <section class="header-2">
+            <nav>
+                <a href="entertainment.html"><img src="home/web logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+                        <ul>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="sightseeing.html">Sightseeing</a></li>
+                     </ul>
+                </div>
+                <i class="fa fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+        </section>
+
+        <!----Entertainments---->
+        <section class="Entertainment">
+            <h1>Entertainments</h1>
+            <p>Discover Singapore's vibrant nightlife, which makes the city come alive after dark. This section will guide you through the best spots for dancing, partying, and experiencing the city's nightlife after hours, including exciting nightclubs, live music lounges, and underground DJ sets.</p>
+
+        </section>
+        <div class="containers">
+
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="nightclubs">
+                        <img src="entertainment/marquee.png" alt="Marquee SG" />
+                    </div>
+                <div class="right-col">
+                    <div class="nightclub-info">
+                        <h3>Nightclubs & Dance Floors</h3>
+                        <p>Step into the hottest nightlife of Singapore, where flashy dance floors hit the music. This section will be your guide to all the greatest clubs in the city. Whether you are into EDM beats, hip-hop, R&B or afrobeats, theses club offer amazing night outs. Discover where the city really comes alive after the dark.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="events">
+                        <img src="entertainment/sg night festival.png" alt="SG Night Festival" />
+                    </div>
+                <div class="right-col">
+                    <div class="events-info">
+                        <h3>Events & Festivals</h3>
+                        <p>There is always something to do in Singapore and it gets more exciting especially after dark. This section is your all-in-one guide to the latest Singapore festivals, concerts, cultural & heritage events and live DJ festivals. Find the most recent parties and festivals happening right now.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="live-music">
+                        <img src="entertainment/livemusic.png" alt="Live Music" />
+                    </div>
+                <div class="right-col">
+                    <div class="live-music">
+                        <h3>Live Music & Gigs</h3>
+                        <p>Looking for a night filled with chill vibes and live vocals ? This section is for you, find the greatest spots where you can catch a live gig, paired with amazing food and scenery. Theses will be the perfect spots to unwind with your friends with good food while enjoying live music.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="list-containers">
+                <div class="left-col">
+                    <div class="hidden">
+                        <img src="entertainment/underground.png" alt="Underground" />
+                    </div>
+                <div class="right-col">
+                    <div class="hidden-info">
+                        <h3>Hidden Gems & Underground</h3>
+                        <p>This section will reveal the hidden and uncover the secrets of hidden gems in Singapore. If you love discovering our underground local faves, these undiscovered locations can give you a better understanding of Singapore's alternative nightlife scene if you're looking for nights that feel genuine, and off the typical route.</p>
+                    </div>
+                </div>   
+                </div>
+            </div>
+        </div>
+
+         <section class="footer">
+            <div class="col-1">
+                <h3>USEFUL LINKS</h3>
+                <a href="entertainment.html">Entertainment</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="food.html">Food</a>
+                <a href="sightseeing.html">Sightseeing</a>
+            </div>
+            <div class="col-2">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <br>
+                    <button type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <h3>CONTACT</h3>
+                <p>@sumyint77@gmail.com</p>
+            </div>
+
+         </section>
+         <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function openMenu(){
+            navLinks.style.right = "0";
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+       </script>
+
+
+     </body>
+</html>
